@@ -15,7 +15,7 @@
 	++++Contact++++
 	++++CSS Animation++++
 	++++Media++++
-*/
+    */
 
 /* ====================
 General Style
@@ -527,7 +527,7 @@ Social-Links
 }
 
 /* =====
- Countdown -------- */
+Countdown -------- */
 
 .fade {
     position: relative;
@@ -585,7 +585,7 @@ ul.countdown li p {
 }
 
 /* =====
- Services -------- */
+Services -------- */
 
 .services-list {
     margin-top: 30px;
@@ -904,7 +904,7 @@ Map
 }
 
 /* =====
- Css animation -------- */
+Css animation -------- */
 
 .transition {
     -webkit-transition: all 500ms linear;
@@ -1345,7 +1345,7 @@ retina ----- */
 }
 
 /* =====
- media ----- */
+media ----- */
 
 @media only screen and  (max-width: 1280px) {
     .about-link, .back-right, .contact-link, .back-left {
@@ -1375,9 +1375,23 @@ retina ----- */
 }
 
 .event1 {
-    background: url(../img/event1BG.jpg);
-    border: 4px solid #fff;
-    max-width: 920px;
+    background: url("../img/event1BG.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 4px solid #FFFFFF;
     height: 300px;
     margin: 0 auto;
+    max-width: 920px;
+    padding: 20px;
+}
+.event1 li {
+    clear: both;
+    color: #444444;
+    float: right;
+    font-size: 30px;
+}
+
+.event-info
+{
+   float: right;
+    text-align: right;
+    width: 220px;
 }
